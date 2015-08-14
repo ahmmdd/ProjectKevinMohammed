@@ -58,6 +58,25 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AboutUs.html" />
+    <Content Include="Assets\headShot.jpg" />
+    <Content Include="Assets\HKLogoFinal.png" />
+    <Content Include="Assets\Property01\image01.jpg" />
+    <Content Include="Assets\Property01\image02.jpg" />
+    <Content Include="Assets\Property01\image03.jpg" />
+    <Content Include="Assets\Property01\image04.jpg" />
+    <Content Include="Assets\Property01\image05.jpg" />
+    <Content Include="Assets\Property01\image06.jpg" />
+    <Content Include="Assets\Property01\image07.jpg" />
+    <Content Include="Assets\Property01\image08.jpg" />
+    <Content Include="Assets\Property02\01.jpg" />
+    <Content Include="Assets\Property02\02.jpg" />
+    <Content Include="Assets\Property02\03.jpg" />
+    <Content Include="Assets\Property02\04.jpg" />
+    <Content Include="Assets\Property02\05.jpg" />
+    <Content Include="Assets\Property02\06.jpg" />
+    <Content Include="Assets\Property02\07.jpg" />
+    <Content Include="Assets\Property02\08.jpg" />
+    <Content Include="Assets\torontoSkyline.jpg" />
     <Content Include="ContactUs.html" />
     <Content Include="Content\main.css" />
     <Content Include="Content\reset.css" />
@@ -67,13 +86,16 @@
     <Content Include="Listing03.html" />
     <Content Include="Listing04.html" />
     <Content Include="Listing05.html" />
-    <Content Include="OurAgents.html" />
+    <Content Include="Properties.html" />
+    <Content Include="SiteMap.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Property01\Thumbs.db" />
+    <Content Include="Assets\Property02\Thumbs.db" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -81,9 +103,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Assets\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
