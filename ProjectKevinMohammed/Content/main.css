@@ -1,2 +1,181 @@
-﻿body {
+﻿header div.banner {
+    background-color: #ffffff;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    padding: 10px;
+}
+
+img {
+    
+    max-width: 80%;
+    padding: 5px 10%;
+}
+
+
+header {
+    padding: 10px;
+    margin: 15px 0;
+}
+
+/* FORM Styling*/
+form {
+    padding: 10px;
+    margin: 15px 0;
+    width: 26em;
+    
+}
+
+label {
+    border: 1px solid transparent;
+    float: left;
+    padding: 7px 5px 5px 5px;
+    width: 6em;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    font-weight: bold;
+}
+
+input, textarea {
+
+    padding: 5px;
+    display: block;
+    min-width: 6em;
+    font-size: 1.2em;
+    line-height: 1.3em;
+}
+
+textarea {
+    min-width: 8em;
+}
+
+.formGroup {
+    padding: 15px;
+    overflow: auto;
+}
+
+.formButton {
+    float: right;
+    margin: 0 0.5em;
+
+    color: white;
+
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+
+    -moz-box-shadow:inset 2px 2px 5px #ccc2cc;
+    -webkit-box-shadow:inset 2px 2px 5px #ccc2cc;
+    box-shadow:inset 2px 2px 5px #ccc2cc;
+
+    background: #1d9c68;
+    background: -moz-linear-gradient(top,  #1d9c68 0, #035936 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0,#1d9c68), color-stop(100%,#035936));
+    background: -webkit-linear-gradient(top,  #1d9c68 0,#035936 100%);
+    background: -o-linear-gradient(top,  #1d9c68 0,#035936 100%);
+    background: -ms-linear-gradient(top,  #1d9c68 0,#035936 100%);
+    background: linear-gradient(to bottom,  #1d9c68 0,#035936 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d9c68', endColorstr='#035936',GradientType=0 );
+
+}
+
+.formButton:hover {
+    background: #057145;
+    background: -moz-linear-gradient(top,  #057145 0%, #035936 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#057145), color-stop(100%,#035936));
+    background: -webkit-linear-gradient(top,  #057145 0%,#035936 100%);
+    background: -o-linear-gradient(top,  #057145 0%,#035936 100%);
+    background: -ms-linear-gradient(top,  #057145 0%,#035936 100%);
+    background: linear-gradient(to bottom,  #057145 0%,#035936 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#057145', endColorstr='#035936',GradientType=0 );
+
+}
+
+#mainForm {
+    border-top: 1px solid #ccc2cc;
+    border-left: 1px solid #ccc2cc;
+    -moz-box-shadow: 2px 2px 5px #ccc2cc;
+    -webkit-box-shadow: 2px 2px 5px #ccc2cc;
+    box-shadow: 2px 2px 5px #ccc2cc;
+}
+
+/* END FORM Styling*/
+/*-------Navigation drop down List---------*/
+img {
+    color: #000000;
+}
+.auto-style1 {
+	text-align: center;
+}
+nav ul ul {
+	display: none;
+	background: #5f6975; border-radius: 0; padding: 0;
+	position: absolute; top: 100%;
+}
+nav ul li:hover > ul {
+	display: block;
+}
+nav ul {
+	background: #efefef; 
+	background: linear-gradient(top, #efefef 0, #bbbbbb 100%);  
+	background: -moz-linear-gradient(top, #efefef 0, #bbbbbb 100%); 
+	background: -webkit-linear-gradient(top, #efefef 0,#bbbbbb 100%); 
+	box-shadow: 0 0 9px rgba(0,0,0,0.15);
+	padding: 0 20px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+nav ul:after {
+	content: ""; clear: both; display: block;
+}
+nav ul li {
+	float: left;
+}
+nav ul li:hover {
+	background: #4b545f;
+	background: linear-gradient(top, #4f5964 0, #5f6975 40%);
+	background: -moz-linear-gradient(top, #4f5964 0, #5f6975 40%);
+	background: -webkit-linear-gradient(top, #4f5964 0,#5f6975 40%);
+}
+nav ul li:hover a {
+	color: #fff;
+}
+nav ul li a {
+	display: block; padding: 25px 40px;
+	color: #757575; text-decoration: none;
+}
+
+nav ul ul li {
+	float: none; 
+	border-top: 1px solid #6b727c;
+	border-bottom: 1px solid #575f6a;
+	position: relative;
+}
+nav ul ul li a {
+	padding: 15px 40px;
+	color: #fff;
+}	
+nav ul ul li a:hover {
+	background: #4b545f;
+}
+/*-------END Navigation drop down List---------*/
+
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+
+}
+
+footer{
+    background-color:#035936;
+    text-decoration-color:white;
 }

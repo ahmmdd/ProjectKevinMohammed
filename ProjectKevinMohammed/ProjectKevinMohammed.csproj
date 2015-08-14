@@ -57,9 +57,17 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AboutUs.html" />
+    <Content Include="ContactUs.html" />
     <Content Include="Content\main.css" />
     <Content Include="Content\reset.css" />
     <Content Include="index.html" />
+    <Content Include="Listing01.html" />
+    <Content Include="Listing02.html" />
+    <Content Include="Listing03.html" />
+    <Content Include="Listing04.html" />
+    <Content Include="Listing05.html" />
+    <Content Include="OurAgents.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -72,6 +80,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
