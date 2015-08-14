@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+
+    <link href="Content/reset.css" rel="stylesheet" />
+    <link href="Content/main.css" rel="stylesheet" />
+</head>
+<body>
+        <header>
+            <div class="banner" align="center">
+                <a href="index.html">
+                    <img src="Assets/HKLogoFinal.png" alt="banner" />
+                </a>
+            </div>
+        </header>
+        <nav align="center">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li>
+                    <a href="#">Properties</a>
+                    <ul>
+                        <li><a href="Listing01.html">Listing #1</a></li>
+                        <li><a href="Listing02.html">Listing #2</a></li>
+                        <li><a href="Listing03.html">Listing #3</a></li>
+                        <li><a href="Listing04.html">Listing #4</a></li>
+                        <li><a href="Listing05.html">Listing #5</a></li>
+                    </ul>
+                </li>
+                <li><a href="OurAgents.html">Agents</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+    <div id="wrapper">
+        <div id="contactUs">
+            <h3>Contact Us</h3>
+            <p>
+                We are ready to help you right now, or when you need us. Please let us know what you are looking for. It's as easy as completing the following form.<br /><br />Corporate Headquarters: <br /><br /> Harvey Kalles <br /><br />
+            </p>
+            <form id="contact">
+                <div class="formGroup">
+                    <label for="firstName">*First Name: </label>
+                    <input type="text" name="name" id="firstName" placeholder="First Name . . ." required autofocus autocomplete="off" />
+                </div>
+                <div class="formGroup">
+                    <label for="lastName">*Last Name: </label>
+                    <input type="text" name="name" id="lastName" placeholder="Last Name . . ." required autofocus autocomplete="off" />
+                </div>
+                <div class="formGroup">
+                    <label for="eMail">*E-Mail Address: </label>
+                    <input type="text" name="eMail" id="eMail" placeholder="example@email.com" required autofocus autocomplete="off" />
+                </div>
+                <div class="formGroup">
+                    <label for="category">*Category: </label>
+                    <select >
+                        <option>General Inquiry.</option>
+                        <option>I'm inquiring about a specific listing.</option>
+                        <option>I'm looking to buy a home.</option>
+                        <option>I want to sell my home.</option>
+                        <option>Send me a market analysis of my home.</option>
+                        <option>Website questions and comments.</option>
+                        <option>Feedback.</option>
+                    </select>
+                </div>
+                <div class="formGroup">
+                    <label for="comments">*Comments: </label>
+                    <p><textarea id="message" name="message" placeholder="Please Enter your Comments here . . ."></textarea></p>
+                </div>
+                <p>Feilds with * are required.</p>
+                <div class="formGroup">
+                    <input type="submit" value="Submit" id="submitButton" class="formButton" />
+                    <input type="reset" value="Reset" id="resetButton" class="formButton" />
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <footer>&copy;Copyright Harvey Kalles Real Estate LTD., Brokerage</footer>
+</body>
+</html>
