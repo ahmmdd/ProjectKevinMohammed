@@ -181,6 +181,22 @@ textarea {
 }
 
 /* END FORM Styling*/
+/*Property Listing*/
+main { 
+        max-width: 70%;
+        padding: 10px 1%;
+        background-color:  #a9e6cd; 
+        float: left;
+
+}
+
+
+section {
+    float: left;
+    max-width: 25%;
+    padding: 1%;
+}
+/*End property listing*/
 /*-------Navigation drop down List---------*/
 img {
     color: #000000;
